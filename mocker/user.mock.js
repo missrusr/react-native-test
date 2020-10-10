@@ -22,8 +22,8 @@ module.exports = {
     token: 'eyJhbGciOiJIUzI1NiIsInR5cCI6IkpXVCJ9',
     // token: '',
   },
-  'GET /api/test': {
-    name: '张三',
-    age:  22,
-  },
+  // 'GET /api/test': {
+  //   name: '张三',
+  //   age:  22,
+  // },
 }
