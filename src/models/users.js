@@ -5,10 +5,10 @@ import Global from '../global';
 
 export default {
   state: {
-    // testData: {
-    //   name: '--',
-    //   age: '--',
-    // },
+    testData: {
+      name: '--',
+      age: '--',
+    },
     userData: null,
     remember: false, // Whether to remember password
     formData: {
@@ -53,10 +53,10 @@ export default {
       Global.navigation.navigate('SignIn');
     },
     // 测试数据
-    // async getTestData() {
-    //   const data = await getTestData();
-    //   console.log('log: ', data);
-    //   await this.update({ testData: data });
-    // }
+    async getTestData() {
+      const data = await getTestData();
+      console.log('log: ', data);
+      await this.update({ testData: data });
+    }
   }),
 };

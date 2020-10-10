@@ -31,9 +31,9 @@ export async function userLogout(params) {
 /**
  * get test data
  */
-// export async function getTestData(params) {
-//   return fetch('/api/test', {
-//     method: 'GET',
-//     body: params,
-//   });
-// }
+export async function getTestData(params) {
+  return fetch('/api/test', {
+    method: 'GET',
+    body: params,
+  });
+}

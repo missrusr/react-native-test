@@ -2,7 +2,7 @@ import Home from '../pages/Home';
 import SignIn from '../pages/SignIn';
 import DevOptions from '../pages/DevOptions';
 import MyHomeSetting from '../pages/MyHome/Setting';
-// import PageA from '../pages/PageA';
+import PageA from '../pages/PageA';
 
 export const stackPageData = [
   {
@@ -29,13 +29,13 @@ export const stackPageData = [
       header: () => null
     }
   },
-  // {
-  //   name: "PageA",
-  //   component: PageA,
-  //   options: {
-  //     title: '页面A',
-  //   }
-  // },
+  {
+    name: "PageA",
+    component: PageA,
+    options: {
+      title: '页面A',
+    }
+  },
   {
     name: "MyHomeSetting",
     component: MyHomeSetting,
